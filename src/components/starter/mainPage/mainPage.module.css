@@ -49,13 +49,92 @@
     display: none;
 }
 
+@media only screen and (max-width: 1500px){
+    .large_logo_desktop{
+        padding-top: 330px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .large_logo_desktop{
+        padding-top: 260px;
+    }
+
+    .second_image{
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .large_logo_desktop{
+        padding-top: 180px;
+    }
+
+    .second_image{
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .large_logo_desktop{
+        padding-top: 155px;
+    }
+
+    .second_image{
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+
+.large_logo_phone{
+    display: block;
+    position: relative;
+    padding-top: 155px;
+    z-index: 9;
+}
+
+.large_logo_desktop{
+    display: none;
+}
+
+.large_logo_phone img{
+    width: 111px;
+}
+
+.wrapper{
+    margin: 0;
+    margin-top: 25px;
+    height: auto;
+}
+
+.first_image{
+    transform: rotate(-90.119deg);
+    margin-top: 200px;
+}
+
+.first_image img{
+    width: 100%;
+}
+
+.second_image{
+    transform: rotate(-90.119deg);
+    margin-top: 250px;
+    padding-top: 0;
+}
+
+.second_image img{
+    width: 92%;
+}
+
+}
 
 @media only screen and (max-width: 430px){
 
 .large_logo_phone{
     display: block;
     position: relative;
-    margin-top: 20px;
+    padding-top: 0;
     z-index: 9;
 }
 

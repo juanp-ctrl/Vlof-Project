@@ -46,10 +46,10 @@ export default component$(() => {
                             </svg>
                         </div>
                     </div>
-                    <svg class={styles.x} xmlns="http://www.w3.org/2000/svg" viewBox="0 8 220 400">
+                    <svg class={styles.x} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
                         <g class={styles.top_bars} stroke-width="2">
-                            <path class={[styles.bar, styles.bar1]} d="M 178,20 H 200" />
-                            <path class={[styles.bar, styles.bar2]} d="M 178,29 H 200" />
+                            <path class={[styles.bar, styles.bar1]} d="M 187,10 H 207" />
+                            <path class={[styles.bar, styles.bar2]} d="M 187,17 H 207" />
                         </g>
                     </svg>
                     <div class={styles.menu_click_area} onClick$={() => {
