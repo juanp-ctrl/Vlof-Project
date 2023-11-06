@@ -1,6 +1,6 @@
 # Vlof ⚡️
 
-Built using Qwik
+Built using Qwik and running in Bun
 
 - [Qwik Docs](https://qwik.builder.io/)
 - [Discord](https://qwik.builder.io/chat)
