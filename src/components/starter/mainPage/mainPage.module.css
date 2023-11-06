@@ -1,0 +1,45 @@
+.wrapper{
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    height: 1080px;
+}
+
+.first_image{
+    width: 100%;
+    position: absolute;
+}
+
+.second_image{
+    width: 100%;
+    padding-top: 165px;
+    z-index: 9;
+    position: absolute;
+}
+
+.large_logo{
+    width: 100%;
+    padding-top: 380px;
+    z-index: 9;
+    position: absolute;
+}
+
+.first_image img{
+    width: 93%;
+}
+
+.second_image img{
+    width: 74%;
+    border-radius: 25px;
+}
+
+.large_logo img{
+    width: 54%;
+}
+
+.white_row{
+    width: 100%;
+    height: 6px;
+    stroke-width: 4px;
+    stroke: #FFF;
+}
