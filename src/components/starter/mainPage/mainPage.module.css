@@ -1,5 +1,6 @@
 .wrapper{
     margin: 50px;
+    margin-top: 190px;
     text-align: center;
     position: relative;
     height: 1080px;
@@ -17,7 +18,7 @@
     position: absolute;
 }
 
-.large_logo{
+.large_logo_desktop{
     width: 100%;
     padding-top: 380px;
     z-index: 9;
@@ -33,7 +34,7 @@
     border-radius: 25px;
 }
 
-.large_logo img{
+.large_logo_desktop img{
     width: 54%;
 }
 
@@ -42,4 +43,53 @@
     height: 6px;
     stroke-width: 4px;
     stroke: #FFF;
+}
+
+.large_logo_phone{
+    display: none;
+}
+
+
+@media only screen and (max-width: 430px){
+
+.large_logo_phone{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.large_logo_desktop{
+    display: none;
+}
+
+.large_logo_phone img{
+    width: 111px;
+}
+
+.wrapper{
+    margin: 0;
+    margin-top: 80px;
+    height: auto;
+}
+
+.first_image{
+    transform: rotate(-90.119deg);
+    margin-top: 155px;
+}
+
+.first_image img{
+    width: 469px;
+}
+
+.second_image{
+    transform: rotate(-90.119deg);
+    margin-top: 166px;
+    padding-top: 0;
+}
+
+.second_image img{
+    width: 114%;
+}
+
 }
