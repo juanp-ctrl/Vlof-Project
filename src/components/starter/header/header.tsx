@@ -33,8 +33,17 @@ export default component$(() => {
                     <div class={styles.menu}>
                         <div class={styles.options}>
                             <div class={[styles.option, styles.selected]}>Inicio</div>
+                            <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
+                                <path d="M0 1H120" stroke="white"/>
+                            </svg>
                             <div class={styles.option}>Info</div>
+                            <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
+                                <path d="M0 1H120" stroke="white"/>
+                            </svg>
                             <div class={styles.option}>CV</div>
+                            <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
+                                <path d="M0 1H120" stroke="white"/>
+                            </svg>
                         </div>
                     </div>
                     <svg class={styles.x} xmlns="http://www.w3.org/2000/svg" viewBox="0 8 220 400">

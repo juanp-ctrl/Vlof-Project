@@ -1,0 +1,31 @@
+.container_intro{
+    margin-top: 112px;
+    display: flex;
+}
+
+.intro_left_line{
+    flex: 1;
+    stroke-width: 3px;
+    stroke: #FFF;
+    padding-top: 40px;
+}
+
+.intro{
+    width: 35%;
+}
+
+.intro p{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro_right_line{
+    flex: 1;
+    stroke-width: 3px;
+    stroke: #FFF;
+    padding-top: 30px;
+}
