@@ -49,13 +49,33 @@
     display: none;
 }
 
+@media only screen and (max-width: 1700px){
+    .wrapper{
+        height: 940px;
+    }
+}
+
 @media only screen and (max-width: 1500px){
+    .wrapper{
+        height: 840px;
+    }
+
     .large_logo_desktop{
         padding-top: 330px;
     }
 }
 
+@media only screen and (max-width: 1350px){
+    .wrapper{
+        height: 760px;
+    }
+}
+
 @media only screen and (max-width: 1200px){
+    .wrapper{
+        height: 670px;
+    }
+
     .large_logo_desktop{
         padding-top: 260px;
     }
@@ -66,6 +86,10 @@
 }
 
 @media only screen and (max-width: 1050px){
+    .wrapper{
+        height: 570px;
+    }
+
     .large_logo_desktop{
         padding-top: 180px;
     }
@@ -75,7 +99,23 @@
     }
 }
 
+@media only screen and (max-width: 950px){
+    .wrapper{
+        height: 510px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .wrapper{
+        height: 440px;
+    }
+}
+
 @media only screen and (max-width: 750px){
+    .wrapper{
+        height: 360px;
+    }
+
     .large_logo_desktop{
         padding-top: 155px;
     }
@@ -105,7 +145,7 @@
 .wrapper{
     margin: 0;
     margin-top: 25px;
-    height: auto;
+    height: 770px;
 }
 
 .first_image{
@@ -129,7 +169,7 @@
 
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 450px){
 
 .large_logo_phone{
     display: block;
@@ -143,7 +183,8 @@
 }
 
 .large_logo_phone img{
-    width: 111px;
+    width: 25%;
+    margin-top: 47px;
 }
 
 .wrapper{
@@ -168,7 +209,29 @@
 }
 
 .second_image img{
-    width: 114%;
+    width: 100%;
 }
 
+}
+
+@media only screen and (max-width: 390px){
+    .second_image img{
+        width: 110%;
+    }
+
+    .large_logo_phone img{
+        width: 28%;
+        margin-top: 23px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .second_image img{
+        width: 121%;
+    }
+
+    .large_logo_phone img{
+        width: 30%;
+        margin-top: 12px;
+    }
 }

@@ -1,0 +1,33 @@
+.footer_container{
+    width: 100%;
+    height: 119px;
+    flex-shrink: 0;
+    background: rgb(39, 41, 30);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_space{
+    width: 35%;
+}
+
+.right_space{
+    width: 19%;
+}
+
+.left_space h2{
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 41px;
+}
+
+.right_space img{
+    width: 39px;
+    height: 61px;
+    flex-shrink: 0;
+    margin-top: 29px;
+    cursor: pointer;
+}

@@ -27,6 +27,7 @@ html {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
+  font-size: 14px;
 }
 
 body {
@@ -35,4 +36,13 @@ body {
   line-height: inherit;
   background: rgb(119 153 118);
   background-image: url('media/noise-light.png');
+}
+
+h2 {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
