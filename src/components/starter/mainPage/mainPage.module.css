@@ -169,6 +169,16 @@
 
 }
 
+@media only screen and (max-width: 520px){
+    .second_image{
+        margin-top: 240px;
+    }
+
+    .large_logo_phone{
+        padding-top: 121px;
+    }
+}
+
 @media only screen and (max-width: 450px){
 
 .large_logo_phone{
@@ -204,7 +214,7 @@
 
 .second_image{
     transform: rotate(-90.119deg);
-    margin-top: 166px;
+    margin-top: 172px;
     padding-top: 0;
 }
 

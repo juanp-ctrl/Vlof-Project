@@ -116,7 +116,7 @@
 .menu {
     align-items: center;
     background-color: #ffffff;
-    clip-path: polygon(85.05% 16.9%, 94% 16.9%, 94% 16.1%, 85.05% 16.1%);
+    clip-path: polygon(85.05% 17.5%, 94% 17.5%, 94% 16.1%, 85.05% 16.1%);
     color: #f2f2f2;
     display: flex;
     position: fixed;
@@ -124,6 +124,7 @@
     font-family: sans-serif;
     font-size: 28px;
     top: 0;
+    height: 418px;
     transition: clip-path 400ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
@@ -218,7 +219,19 @@
 
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 570px){
+    .menu{
+        height: 370px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .menu{
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 450px){
 
 .wrapper{
     width: 100%;
@@ -274,7 +287,7 @@
     flex-direction: column;
     font-family: sans-serif;
     font-size: 28px;
-    height: 280px;
+    height: 314px;
     top: 0;
     transition: clip-path 400ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -369,4 +382,10 @@
     z-index: 32;
 }
 
+}
+
+@media only screen and (max-width: 380px){
+    .menu{
+        height: 285px;
+    }
 }

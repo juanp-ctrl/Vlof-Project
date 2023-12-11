@@ -18,7 +18,7 @@
 .intro p{
     color: #FFF;
     text-align: center;
-    font-size: 26px;
+    font-size: 2em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -67,7 +67,7 @@
 
 .explanation_text p{
     color: #000;
-    font-size: 24px;
+    font-size: 1.6em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -85,6 +85,214 @@
 
 .container_vlofAirlines img{
     width: 45%;
+}
+
+@media only screen and (max-width: 1510px){
+    .explanation_text p{
+        font-size: 1.55em;
+        padding-top: 55px;
+    }
+
+    .container_leftRectangle{
+        height: 97px;
+    }
+
+    .container_leftRectangle h2{
+        font-size: 2em;
+        right: 8%;
+        top: 12%;
+    }
+
+    .left_Q_rectangle{
+        width: 110%;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .explanation_text p{
+        font-size: 1.5em;
+        padding-top: 27px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .explanation_text p{
+        font-size: 1.4em;
+        padding-top: 27px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .explanation_text p{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .intro p{
+        font-size: 1.8em;
+    }
+
+    .intro_left_line{
+        padding-top: 90px;
+    }
+
+    .intro_right_line{
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .container_leftRectangle{
+        height: 97px;
+    }
+
+    .container_leftRectangle h2{
+        font-size: 1.9em;
+        right: 3%;
+        top: 18%;
+    }
+
+    .left_Q_rectangle{
+        width: 116%;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .explanation_text p{
+        font-size: 1.3em;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .explanation_text{
+        width: 80%;
+    }
+
+    .explanation_text p{
+        padding-top: 52px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .explanation_text p{
+        padding-top: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .intro p{
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .left_Q_rectangle{
+        width: 120%;
+    }
+
+    .container_leftRectangle h2{
+        font-size: 1.8em;
+        top: 22%;
+    }
+
+    .intro p{
+        font-size: 1.5em;
+        padding: 0 20px;
+    }
+
+    .intro_left_line path{
+        stroke-width: 10;
+    }
+
+    .intro_right_line path{
+        stroke-width: 10;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .intro p{
+        font-size: 1.4em;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px){
+    .container_intro{
+        margin-top: 54px;
+        margin-bottom: 10px;
+    }
+
+    .intro{
+        width: 64%;
+    }
+
+    .intro p{
+        font-size: 1.2em;
+        padding: 0 20px;
+    }
+
+    .explanation_text p{
+        font-size: 1.3em;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+
+    .container_leftRectangle h2{
+        font-size: 20px;
+        right: 21%;
+        top: 27%;
+    }
+
+    .container_leftRectangle{
+        width: 91%;
+        height: 84px;
+        left: -130px;
+    }
+
+    .left_Q_rectangle{
+        width: 100%;
+    }
+
+    .explanation_text{
+        width: 87%;
+    }
+
+    .container_vlofAirlines{
+        margin-top: -25px;
+    }
+
+    .container_vlofAirlines img{
+        width: 65%;
+    }
+
+    .intro_left_line path{
+        stroke-width: 20;
+    }
+
+    .intro_right_line{
+        padding-top: 40px;
+    }
+
+    .intro_right_line path{
+        stroke-width: 20;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .explanation_text p{
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .explanation_text p{
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -111,7 +319,7 @@
     .container_leftRectangle h2{
         font-size: 20px;
         right: 14%;
-        top: 24%;
+        top: 26%;
     }
 
     .container_leftRectangle{
@@ -134,5 +342,50 @@
 
     .container_vlofAirlines img{
         width: 65%;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .explanation_text p{
+        font-size: 1.1em;
+        padding-top: 35px;
+    }
+
+    .container_vlofAirlines{
+        margin-top: -40px;
+    }
+
+    .container_vlofAirlines img{
+        width: 70%;   
+    }
+
+    .container_leftRectangle{
+        width: 107%;
+    }
+
+    .container_leftRectangle h2{
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .explanation_text p{
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .container_vlofAirlines{
+        margin-top: -25px;
+    }
+
+    .container_vlofAirlines img{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 355px){
+    .explanation_text p{
+        font-size: 1em;
     }
 }
