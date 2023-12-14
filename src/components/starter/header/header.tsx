@@ -36,7 +36,7 @@ export default component$(() => {
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>
-                            <div class={styles.option}>Info</div>
+                            <div class={styles.option}>Galeria</div>
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>

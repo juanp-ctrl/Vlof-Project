@@ -7,26 +7,20 @@
  * the styles in here will be applied to the Document, without any sort of CSS scoping.
  *
  */
+
+@font-face {
+  font-family: 'Jost-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Jost-Regular"), 
+    url('/fonts/Jost-Regular.ttf') format('truetype');
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
   font-size: 14px;
 }
 
@@ -36,6 +30,7 @@ body {
   line-height: inherit;
   background: rgb(119 153 118);
   background-image: url('media/noise-light.png');
+  font-family: 'Jost-Regular';
 }
 
 h2 {
