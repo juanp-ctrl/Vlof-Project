@@ -6,7 +6,7 @@ export default component$(() => {
         <div>
             <div class={styles.wrapper}>
                 <div class={styles.first_image}><img src="src/media/image_layer_1.png" alt="Beutiful landscape" /></div>
-                <div class={styles.second_image}><img src="src/media/image_layer_2.jpg" alt="Beutiful green river" /></div>
+                <div class={styles.second_image}><img src="src/media/Pink_marble.jpg" alt="Beutiful green river" /></div>
                 <div class={styles.large_logo_desktop}><img src="src/media/Logo_large.png" alt="Large Vlof Logo" /></div>
                 <div class={styles.large_logo_phone}><img src="src/media/Logo_vertical.png" alt="Large vertical Vlof Logo" /></div>
             </div>

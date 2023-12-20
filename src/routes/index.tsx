@@ -45,7 +45,7 @@ export default component$(() => {
       <div class="container_explanation">
         <div class="explanation_text">
           <p>Vlof nace de la pregunta de que es lo que se necesita para iniciar aquello que deseamos, como saber impulsarnos y dejarnos llevar, asi como en la aviación existe el VLOF, la velocidad de despegue, que viene siendo la velocidad a la que un avión comienza a volar podemos asi mismo preguntarnos, ¿Cual es nuestro vlof? <br />  <br />
-              Es por esto que este sitio es una expresión creativa propia, mi nombre es Juan Pablo Jiménez, estas son mis fotos, mis ideas y este es mi sitio. </p>
+              Es por esto que este sitio es una expresión creativa propia, mi nombre es Juan Pablo Jiménez, estas son mis <a href="#">fotos</a>, mis ideas y este es mi sitio. </p>
         </div>
       </div>
       <div class="container_vlofAirlines">
