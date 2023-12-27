@@ -197,6 +197,7 @@
 @media only screen and (max-width: 900px){
     .explanation_text{
         width: 80%;
+        height: 400px;
     }
 
     .explanation_text p{
@@ -246,7 +247,7 @@
     }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 675px){
     .intro p{
         font-size: 1.4em;
     }
@@ -255,6 +256,10 @@
         width: 160%;
         position: absolute;
         left: -115px;
+    }
+
+    .explanation_text{
+        height: 455px;
     }
 
 }
@@ -271,13 +276,6 @@
 
     .intro p{
         padding: 0 20px;
-    }
-
-    .explanation_text p{
-        font-size: 1.3em;
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 30px;
     }
 
     .container_leftRectangle h2{
@@ -335,12 +333,20 @@
     .container_leftRectangle h2{
         right: 8%;
     }
+
+    .explanation_text{
+        height: 475px;
+    }
 }
 
+@media only screen and (max-width: 495px){
+    .explanation_text{
+        height: 500px;
+    }
 
-@media only screen and (max-width: 470px){
     .explanation_text p{
-        font-size: 1.2em;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
@@ -362,7 +368,7 @@
         font-size: 1.2em;
         padding-left: 40px;
         padding-right: 40px;
-        padding-top: 30px;
+        padding-top: 45px;
     }
 
     .container_leftRectangle h2{
@@ -382,10 +388,12 @@
 
     .explanation_text{
         width: 87%;
+        height: 435px;
     }
 
     .container_vlofAirlines{
         margin-top: -25px;
+        margin-bottom: 110px;
     }
 
     .container_vlofAirlines img{
@@ -393,9 +401,14 @@
     }
 }
 
+@media only screen and (max-width: 440px){
+    .explanation_text{
+        height: 455px;
+    }
+}
+
 @media only screen and (max-width: 410px){
     .explanation_text p{
-        font-size: 1.1em;
         padding-top: 35px;
     }
 
@@ -416,14 +429,26 @@
     }
 }
 
-@media only screen and (max-width: 390px){
-    .explanation_text p{
-        font-size: 1.05em;
+@media only screen and (max-width: 400px){
+    .explanation_text{
+        height: 470px;
+    }
+}
+
+@media only screen and (max-width: 396px){
+    .explanation_text{
+        height: 510px;
     }
     
     .container_leftRectangle h2{
         font-size: 1.7em;
         top: 28%;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .explanation_text{
+        height: 525px;
     }
 }
 
@@ -451,10 +476,6 @@
 }
 
 @media only screen and (max-width: 355px){
-    .explanation_text p{
-        font-size: 1em;
-    }
-
     .container_leftRectangle h2{
         font-size: 1.5em;
         top: 35%;
@@ -463,17 +484,29 @@
     .intro p{
         font-size: 1.1em;
     }
+
+    .explanation_text{
+        height: 540px;
+    }
 }
 
-@media only screen and (max-width: 335px){
+@media only screen and (max-width: 336px){
     .container_leftRectangle h2{
         font-size: 1.4em;
         top: 37%;
+    }
+
+    .explanation_text{
+        height: 580px;
     }
 }
 
 @media only screen and (max-width: 325px){
     .container_leftRectangle h2{
         right: 4%;
+    }
+
+    .explanation_text{
+        height: 595px;
     }
 }
