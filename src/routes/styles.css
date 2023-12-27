@@ -8,7 +8,7 @@
     flex: 1;
     stroke-width: 3px;
     stroke: #FFF;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .intro{
@@ -28,7 +28,7 @@
     flex: 1;
     stroke-width: 3px;
     stroke: #FFF;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .container_leftRectangle{
@@ -112,6 +112,14 @@
         width: 110%;
         height: 130px;
     }
+
+    .intro_left_line{
+        padding-top: 90px;
+    }
+
+    .intro_right_line{
+        padding-top: 90px;
+    }
 }
 
 @media only screen and (max-width: 1300px){
@@ -133,6 +141,10 @@
         font-size: 1.4em;
         padding-top: 27px;
     }
+
+    .intro{
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 1150px){
@@ -143,14 +155,6 @@
 
     .intro p{
         font-size: 1.8em;
-    }
-
-    .intro_left_line{
-        padding-top: 90px;
-    }
-
-    .intro_right_line{
-        padding-top: 90px;
     }
 
     .left_Q_rectangle{
@@ -173,12 +177,20 @@
         width: 130%;
         height: 130px;
     }
+
+    .intro{
+        width: 45%;
+    }
 }
 
 @media only screen and (max-width: 950px){
     .explanation_text p{
         font-size: 1.3em;
         padding-top: 40px;
+    }
+
+    .container_intro{
+        margin-bottom: 55px;
     }
 }
 
@@ -228,6 +240,10 @@
     .intro_right_line path{
         stroke-width: 10;
     }
+
+    .container_intro{
+        margin-top: 80px;   
+    }
 }
 
 @media only screen and (max-width: 650px){
@@ -254,7 +270,6 @@
     }
 
     .intro p{
-        font-size: 1.2em;
         padding: 0 20px;
     }
 
@@ -268,6 +283,14 @@
     .container_leftRectangle h2{
         right: 15%;
         top: 24%;
+    }
+
+    .intro_left_line{
+        padding-top: 50px;
+    }
+
+    .intro_right_line{
+        padding-top: 50px;
     }
 
     .container_leftRectangle{
@@ -295,10 +318,6 @@
 
     .intro_left_line path{
         stroke-width: 20;
-    }
-
-    .intro_right_line{
-        padding-top: 40px;
     }
 
     .intro_right_line path{
@@ -421,6 +440,14 @@
         font-size: 1.6em;
         top: 32%;
     }
+
+    .intro_left_line{
+        padding-top: 75px;
+    }
+
+    .intro_right_line{
+        padding-top: 75px;
+    }
 }
 
 @media only screen and (max-width: 355px){
@@ -431,6 +458,10 @@
     .container_leftRectangle h2{
         font-size: 1.5em;
         top: 35%;
+    }
+
+    .intro p{
+        font-size: 1.1em;
     }
 }
 
