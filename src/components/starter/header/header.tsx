@@ -29,8 +29,35 @@ export default component$(() => {
                     </ul>
                 </div>
             </header>
-            <div class={[styles.phone_navbar, "phone_navbar", isActive.value ? styles.active : '']}>
-                    <div class={styles.menu}>
+            <div class={[styles.phone_navbar, "phone_navbar", isActive.value ? styles.activado : '']}>
+
+                <div class={styles.menu}>
+                    <div class={[styles.menu_bar, isActive.value ? styles.change_x : '']} id="menu-bar" onClick$={() => {
+                        isActive.value = !isActive.value;
+                    }}>
+                        <div class={[styles.bar1, styles.bar]}></div>
+                        <div class={[styles.bar2, styles.bar]}></div>
+                        <div class={[styles.bar3, styles.bar]}></div>
+                    </div>
+                    <nav class={[styles.nav, isActive.value ? styles.change : '']} id="nav">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
+                                <path d="M0 1H120" stroke="white"/>
+                            </svg>
+                            <li><a href="#">Galeria</a></li>
+                            <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
+                                <path d="M0 1H120" stroke="white"/>
+                            </svg>
+                            <li><a href="#">CV</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+
+                <div class={[styles.menu_bg, isActive.value ? styles.change_bg : '']} id="menu-bg"></div>
+
+
+                    {/* <div class={styles.menu}>
                         <div class={styles.options}>
                             <div class={[styles.option, styles.selected]}>Inicio</div>
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
@@ -57,7 +84,7 @@ export default component$(() => {
                     }
                     }>
                         
-                    </div>
+                    </div> */}
             </div>
         </div>
     );
