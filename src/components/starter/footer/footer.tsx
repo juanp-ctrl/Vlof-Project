@@ -8,7 +8,7 @@ export default component$(() => {
                 <h2>VLOF.</h2>
             </div>
             <div class={styles.right_space}>
-                <img src="src/media/Upside_arrow.png" alt="Upside white arrow"  onClick$={() => {
+                <img src="/src/media/Upside_arrow.png" alt="Upside white arrow"  onClick$={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth'

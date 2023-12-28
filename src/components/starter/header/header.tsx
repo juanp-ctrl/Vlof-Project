@@ -8,7 +8,7 @@ export default component$(() => {
     return (
         <div class={[styles.wrapper, isActive.value ? styles.activado : '']}>
             <header class={styles.header}>
-                <div class={styles.div_logo}><a href="/"><img src="src/media/Logo.png" alt="Vlof Logo" class={styles.logo_vlof}/></a></div>
+                <div class={styles.div_logo}><a href="/"><img src="/src/media/Logo.png" alt="Vlof Logo" class={styles.logo_vlof}/></a></div>
                 <div class={styles.desktop_navbar}>
                     <ul>
                         <li>
@@ -18,7 +18,7 @@ export default component$(() => {
                             <path d="M1 0V49" stroke="white" stroke-width="2"/>
                         </svg>
                         <li>
-                            <a href="/">Galeria</a>
+                            <a href="/galeria">Galeria</a>
                         </li>
                         <svg class={styles.white_col} xmlns="http://www.w3.org/2000/svg" width="2" height="49" viewBox="0 0 2 49" fill="none">
                             <path d="M1 0V49" stroke="white" stroke-width="2"/>
@@ -41,11 +41,11 @@ export default component$(() => {
                     </div>
                     <nav class={[styles.nav, isActive.value ? styles.change : '']} id="nav">
                         <ul>
-                            <li><a href="#">Inicio</a></li>
+                            <li><a href="/">Inicio</a></li>
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>
-                            <li><a href="#">Galeria</a></li>
+                            <li><a href="/galeria">Galeria</a></li>
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>
