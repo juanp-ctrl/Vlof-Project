@@ -27,10 +27,12 @@
 
 .first_image img{
     width: 93%;
+    height: auto;
 }
 
 .second_image img{
     width: 74%;
+    height: auto;
     border-radius: 25px;
 }
 

@@ -1,5 +1,6 @@
 import { component$, useSignal } from '@builder.io/qwik';
 import styles from "./header.module.css";
+import Imglogo from "~/media/Logo.png?jsx";
 
 export default component$(() => {
 
@@ -8,7 +9,7 @@ export default component$(() => {
     return (
         <div class={[styles.wrapper, isActive.value ? styles.activado : '']}>
             <header class={styles.header}>
-                <div class={styles.div_logo}><a href="/"><img src="/src/media/Logo.png" alt="Vlof Logo" class={styles.logo_vlof}/></a></div>
+                <div class={styles.div_logo}><a href="/"><Imglogo alt="Vlof Logo" class={styles.logo_vlof}/></a></div>
                 <div class={styles.desktop_navbar}>
                     <ul>
                         <li>

@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 
 import MainPage from "~/components/starter/mainPage/mainPage";
 import styles from "./styles.css?inline";
@@ -28,18 +29,6 @@ export default component$(() => {
           <g filter="url(#filter0_d_7_33)">
             <path d="M0 0H877C890.807 0 902 11.1929 902 25V85C902 98.8071 890.807 110 877 110H0V0Z" fill="#E7F3C5"/>
           </g>
-          <defs>
-            <filter id="filter0_d_7_33" x="-4" y="0" width="910" height="118" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-              <feOffset dy="4"/>
-              <feGaussianBlur stdDeviation="2"/>
-              <feComposite in2="hardAlpha" operator="out"/>
-              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_33"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_33" result="shape"/>
-            </filter>
-          </defs>
         </svg>
       </div>
       <div class="container_explanation">
@@ -49,7 +38,7 @@ export default component$(() => {
         </div>
       </div>
       <div class="container_vlofAirlines">
-        <img src="src/media/plane_vlf.png" alt="Vlof Airlines Illustration" />
+        <img src="src/media/plane_vlf.png" alt="Vlof Airlines Illustration" loading="lazy" />
       </div>
     </>
   );

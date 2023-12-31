@@ -37,5 +37,9 @@
     "undici": "5.22.1",
     "vite": "4.4.7",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@unpic/qwik": "^0.0.38",
+    "sqlite3": "^5.1.7-rc.0"
   }
 }

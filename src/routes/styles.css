@@ -87,10 +87,12 @@
     justify-content: center;
     margin-top: -40px;
     margin-bottom: 122px;
+    width: 100%;
 }
 
-.container_vlofAirlines img{
+.container_vlofAirlines img {
     width: 45%;
+    height: auto;
 }
 
 @media only screen and (max-width: 1510px){
@@ -335,7 +337,7 @@
     }
 
     .explanation_text{
-        height: 475px;
+        height: 520px;
     }
 }
 
