@@ -1,0 +1,110 @@
+.galleryTitle{
+    margin-top: 210px;
+}
+
+.titleChange{
+    display: none;
+}
+
+.gallery_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 40px 110px;
+}
+
+.gallery_container p{
+    font-size: 1.3em;
+    margin: 30px 0;
+}
+
+.galleryChange{
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-image: url('../src/media/night_stars.jpg');
+    z-index: 300;
+    padding: 0;
+}
+
+.galleryChange img{
+    display: none;
+}
+
+.galleryChange p{
+    display: none;
+}
+
+.image_card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageContainer{
+    background-image: url('/src/media/polaroid_texture.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageContainer img{
+    padding: 30px 30px 0 30px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.image_card img{
+    height: 75vh;
+    width: auto;
+    transition: all 500ms ease-out;
+}
+
+.imageSelected{
+    height: 100vh;
+    background: none;
+}
+
+.imageSelected img{
+    width: auto;
+    height: 85vh;
+    display: block;
+}
+
+.imageSelected p{
+    display: block;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 650px) {
+    .galleryTitle{
+        margin-top: 150px;
+    }
+
+    .container {
+      grid-template-columns: 1fr; /* Cambia a una sola columna (una fracción) en dispositivos con ancho de pantalla de 600px o menos */
+    }
+
+    .gallery_container{
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .galleryTitle{
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .image_card img{
+        height: 65vh;
+    }
+
+    .imageSelected img{
+        height: 70vh;
+    }
+}

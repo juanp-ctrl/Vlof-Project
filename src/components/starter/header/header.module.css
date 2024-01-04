@@ -93,14 +93,14 @@
 .phone_navbar{
     display: block;
     width: 100%;
-    height: 550px;
+    height: auto;
     overflow: hidden;
     position: relative;
     z-index: 102;
 }
 
 .activado .phone_navbar {
-    height: 550px;
+    height: 380px;
     position: absolute;
     top: 0;
 }
