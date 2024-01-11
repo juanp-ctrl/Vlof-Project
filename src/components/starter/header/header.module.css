@@ -17,6 +17,11 @@
     display: flex;
 }
 
+.div_logo{
+  position: absolute;
+  z-index: 110;
+}
+
 .logo_vlof {
     width: 121px;
     height: 157px;

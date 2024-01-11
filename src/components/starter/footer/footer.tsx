@@ -16,12 +16,6 @@ export default component$(() => {
                         behavior: 'smooth'
                     });
                 }}/>
-                {/* <img src="/src/media/Upside_arrow.png" alt="Upside white arrow"  onClick$={() => {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: 'smooth'
-                    });
-                }}/> */}
             </div>
         </div>
     );

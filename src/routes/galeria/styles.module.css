@@ -1,5 +1,13 @@
 .galleryTitle{
-    margin-top: 210px;
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.galleryTitle img{
+    width: 23%;
+    height: auto;
 }
 
 .titleChange{
@@ -10,7 +18,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 30px;
-    padding: 40px 110px;
+    padding: 40px 110px 70px 110px;
 }
 
 .gallery_container p{
@@ -27,6 +35,10 @@
     padding: 0;
 }
 
+.galleryChange div{
+    padding-bottom: 0;
+}
+
 .galleryChange img{
     display: none;
 }
@@ -41,6 +53,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .imageContainer{
@@ -50,16 +63,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 8px;
 }
 
 .imageContainer img{
-    padding: 30px 30px 0 30px;
-    border-radius: 40px 40px 0px 0px;
+    padding: 40px 25px 0 25px;
 }
 
 .image_card img{
     height: 75vh;
     width: auto;
+    cursor: pointer;
     transition: all 500ms ease-out;
 }
 
@@ -79,23 +93,42 @@
     font-size: 1.5em;
 }
 
+@media screen and (max-width: 950px) {
+    .galleryTitle img{
+        width: 39%;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .galleryTitle{
-        margin-top: 150px;
+        margin-top: 115px;
     }
 
-    .container {
-      grid-template-columns: 1fr; /* Cambia a una sola columna (una fracción) en dispositivos con ancho de pantalla de 600px o menos */
+    .galleryTitle img{
+        width: 44%;
     }
 
     .gallery_container{
-        padding: 10px 0px;
+        grid-template-columns: 1fr; /* Cambia a una sola columna (una fracción) en dispositivos con ancho de pantalla de 600px o menos */
+        padding: 20px 0px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .galleryTitle{
-        margin-top: 125px;
+        margin-top: 105px;
+    }
+
+    .galleryTitle img{
+        width: 55%;
+    }
+
+    .gallery_container p{
+        font-size: 1.2em;
+    }
+
+    .imageSelected p{
+        font-size: 1.2em;
     }
 }
 
@@ -108,3 +141,4 @@
         height: 70vh;
     }
 }
+
