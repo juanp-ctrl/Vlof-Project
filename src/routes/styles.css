@@ -375,7 +375,8 @@
 
     .container_leftRectangle h2{
         right: 8%;
-        top: 26%;
+        top: 30%;
+        font-size: 1.7em;
     }
 
     .container_leftRectangle{
@@ -425,10 +426,6 @@
     .container_leftRectangle{
         width: 107%;
     }
-
-    .container_leftRectangle h2{
-        right: 6%;
-    }
 }
 
 @media only screen and (max-width: 400px){
@@ -443,8 +440,8 @@
     }
     
     .container_leftRectangle h2{
-        font-size: 1.7em;
-        top: 28%;
+        font-size: 1.6em;
+        top: 31%;
     }
 }
 
@@ -464,8 +461,8 @@
     }
 
     .container_leftRectangle h2{
-        font-size: 1.6em;
-        top: 32%;
+        font-size: 1.5em;
+        top: 35%;
     }
 
     .intro_left_line{

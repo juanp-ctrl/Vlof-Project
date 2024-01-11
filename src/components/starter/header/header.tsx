@@ -19,7 +19,7 @@ export default component$(() => {
                             <path d="M1 0V49" stroke="white" stroke-width="2"/>
                         </svg>
                         <li>
-                            <a href="/galeria">Galeria</a>
+                            <a href="/Gallery">Galeria</a>
                         </li>
                         <svg class={styles.white_col} xmlns="http://www.w3.org/2000/svg" width="2" height="49" viewBox="0 0 2 49" fill="none">
                             <path d="M1 0V49" stroke="white" stroke-width="2"/>
@@ -46,7 +46,7 @@ export default component$(() => {
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>
-                            <li><a href="/galeria">Galeria</a></li>
+                            <li><a href="/Gallery">Galeria</a></li>
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>

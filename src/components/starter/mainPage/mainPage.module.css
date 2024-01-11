@@ -222,6 +222,11 @@
 }
 
 @media only screen and (max-width: 550px){
+
+    .large_logo_phone{
+        padding-top: 127px;
+    }
+
     .wrapper{
         height: 680px;
     }

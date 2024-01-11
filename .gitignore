@@ -3,6 +3,7 @@
 /lib
 /lib-types
 /server
+db_service.ts
 
 # Development
 node_modules
