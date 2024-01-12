@@ -1,4 +1,4 @@
-import { component$, useStylesScoped$, useSignal} from '@builder.io/qwik';
+import { component$, useSignal} from '@builder.io/qwik';
 import { routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
 
 import styles from "./styles.module.css";

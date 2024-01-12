@@ -25,7 +25,7 @@ export default component$(() => {
                             <path d="M1 0V49" stroke="white" stroke-width="2"/>
                         </svg>
                         <li>
-                            <a href="/">CV</a>
+                            <a href="/Profile">Perfil</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@ export default component$(() => {
                             <svg class={styles.option_white_row} xmlns="http://www.w3.org/2000/svg" width="120" height="2" viewBox="0 0 120 2" fill="none">
                                 <path d="M0 1H120" stroke="white"/>
                             </svg>
-                            <li><a href="#">CV</a></li>
+                            <li><a href="/Profile">Perfil</a></li>
                         </ul>
                     </nav> 
                 </div>

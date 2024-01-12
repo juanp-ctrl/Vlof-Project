@@ -1,0 +1,241 @@
+.profileTitle{
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profileTitle img{
+    width: 30%;
+    height: auto;
+}
+
+.greenRectangle{
+    position: absolute;
+    top: 435px;
+    width: 100%;
+    height: 297px;
+    z-index: -1;
+    background: #5E984B;
+    background-image: url("../../media/noise-light.png");
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.transparentRectangle{
+    width: 100%;
+    margin: 40px 0px;
+    display: inline-flex;
+}
+
+.photoWrapper{
+    display: flex;
+    justify-content: center;
+    width: 47%;
+}
+
+.photoWrapper img{
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.70);
+}
+
+.transparentRectangle svg{
+    width: 3%;
+    margin-top: 110px;
+}
+
+.descriptionWrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+.descriptionWrapper p{
+    font-size: 2.5em;
+    color: white;
+    padding: 50px 100px;
+}
+
+.linksWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linksMenu{
+    width: 80%;
+    background: url('../../media/orangeTerrain.jpg');
+    box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.30);
+    filter: brightness(0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    margin: 110px 0;
+}
+
+.linksMenu div{
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.linksMenu div a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+}
+
+.cvLink{
+    background: #5E984B;
+}
+
+.githubLink{
+    background: rgba(13, 17, 23, 0.86);
+}
+
+.linkedinLink{
+    background: #0A66C2;
+}
+
+.emailLink{
+    background: #E07144;
+}
+
+@media screen and (max-width: 1750px) {
+    .greenRectangle{
+        height: 274px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .profileTitle{
+        margin-top: 215px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .profileTitle img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .descriptionWrapper p{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profileTitle img{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profileTitle{
+        margin-top: 230px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .profileTitle{
+        margin-top: 145px;
+    }
+
+    .profileTitle img{
+        width: 50%;
+    }
+
+    .greenRectangle{
+        top: 324px;
+        height: 184px;
+    }
+
+    .photoWrapper img{
+        width: 200px;
+        height: 244px;
+    }
+
+    .transparentRectangle svg{
+        margin-top: 51px;
+    }
+
+    .descriptionWrapper p{
+        font-size: 1.8em;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .profileTitle img{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profileTitle{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .profileTitle{
+        margin-top: 163px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .profileTitle{
+        margin-top: 130px;
+    }
+
+    .profileTitle img{
+        width: 70%;
+    }
+
+    .greenRectangle{
+        top: 285px;
+        height: 145px;
+    }
+
+    .photoWrapper img{
+        width: 150px;
+        height: 183px;
+    }
+
+    .transparentRectangle svg{
+        height: 108px;
+    }
+
+    .descriptionWrapper p{
+        font-size: 1.4em;
+    }
+
+    .linksMenu{
+        margin: 45px 0 110px 0;
+    }
+
+    .linksMenu div a{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profileTitle{
+        margin-top: 140px;
+    }
+
+    .descriptionWrapper p{
+        font-size: 1.3em;
+    }
+}
