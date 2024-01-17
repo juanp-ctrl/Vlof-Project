@@ -3,16 +3,11 @@ import styles from "./mainPage.module.css";
 
 import { Image } from "@unpic/qwik";
 
-// import FirstMainImage from "~/media/image_layer_1.png?jsx";
-// import SecondMainImage from "~/media/Pink_marble.jpg?jsx";
-
 export default component$(() => {
     return (
         <div>
             <div class={styles.wrapper}>
                 <div class={styles.first_image}>
-                    {/* <FirstMainImage /> */}
-                    {/* <img src="src/media/image_layer_1.png" alt="Beutiful landscape" /> */}
                     <Image 
                         src="src/media/image_layer_1.png"
                         fetchpriority="high"
@@ -22,8 +17,7 @@ export default component$(() => {
                     />
                 </div>
                 <div class={styles.second_image}>
-                    {/* <SecondMainImage /> */}
-                    <img src="src/media/Pink_marble.jpg" alt="Beutiful green river" />
+                    <img width={973} height={323} src="src/media/Pink_marble.jpg" alt="Beutiful green river" />
                     {/* <Image 
                         src="src/media/Pink_marble.jpg"
                         fetchpriority="high"
@@ -33,7 +27,6 @@ export default component$(() => {
                     /> */}
                 </div>
                 <div class={styles.large_logo_desktop}>
-                    {/* <img src="src/media/Logo_large.png" alt="Large Vlof Logo" /> */}
                     <Image 
                         src="src/media/Logo_large.png"
                         fetchpriority="high"
@@ -43,7 +36,6 @@ export default component$(() => {
                     />
                 </div>
                 <div class={styles.large_logo_phone}>
-                    {/* <img src="src/media/Logo_vertical.png" alt="Large vertical Vlof Logo" /> */}
                     <Image 
                         src="src/media/Logo_vertical.png"
                         fetchpriority="low"

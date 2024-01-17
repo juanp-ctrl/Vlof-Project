@@ -57,6 +57,26 @@
     padding: 50px 100px;
 }
 
+.writtenText{
+    color: black;
+}
+
+.cursor{
+    display: inline-block;
+    animation: blinker 1000ms infinite;
+    width: 2px;
+    height: 37px;
+    padding-left: 2px;
+    padding-top: 4px;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+
+@keyframes blinker {
+    0% { background-color: black; }
+    70% { background-color: transparent; }
+}
+
 .linksWrapper{
     width: 100%;
     display: flex;
@@ -131,6 +151,10 @@
 @media screen and (max-width: 1030px) {
     .descriptionWrapper p{
         font-size: 2em;
+    }
+
+    .cursor{
+        height: 27px;
     }
 }
 
@@ -219,6 +243,11 @@
 
     .descriptionWrapper p{
         font-size: 1.4em;
+    }
+
+    .cursor{
+        height: 20px;
+        padding-top: 0px;
     }
 
     .linksMenu{

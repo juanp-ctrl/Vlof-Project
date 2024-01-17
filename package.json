@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "@unpic/qwik": "^0.0.38",
-    "sqlite3": "^5.1.7-rc.0"
+    "sqlite3": "^5.1.7"
   }
 }

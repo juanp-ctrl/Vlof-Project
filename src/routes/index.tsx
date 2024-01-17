@@ -1,6 +1,5 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Image } from "@unpic/qwik";
 
 import MainPage from "~/components/starter/mainPage/mainPage";
 import styles from "./styles.css?inline";
@@ -38,7 +37,7 @@ export default component$(() => {
         </div>
       </div>
       <div class="container_vlofAirlines">
-        <img src="src/media/plane_vlf.png" alt="Vlof Airlines Illustration" loading="lazy" />
+        <img width="767" height="653" src="src/media/plane_vlf.png" alt="Vlof Airlines Illustration" loading="lazy" />
       </div>
     </>
   );
