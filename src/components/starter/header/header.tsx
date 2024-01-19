@@ -1,6 +1,6 @@
 import { component$, useSignal } from '@builder.io/qwik';
 import styles from "./header.module.css";
-import Imglogo from "~/media/Logo.png?jsx";
+import Imglogo from "~/../public/media/Logo.png?jsx";
 
 export default component$(() => {
 

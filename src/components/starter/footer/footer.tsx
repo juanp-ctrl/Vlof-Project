@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import styles from "./footer.module.css";
 
-import UpsideArrow from "~/media/Upside_arrow.png?jsx";
+import UpsideArrow from "~/../public/media/Upside_arrow.png?jsx";
 
 export default component$(() => {
     return (

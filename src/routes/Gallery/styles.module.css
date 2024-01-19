@@ -30,7 +30,7 @@
     display: block;
     width: 100%;
     position: absolute;
-    background-image: url('../src/media/night_stars.jpg');
+    background-image: url('/media/night_stars.jpg');
     z-index: 300;
     padding: 0;
 }
@@ -57,7 +57,7 @@
 }
 
 .imageContainer{
-    background-image: url('/src/media/polaroid_texture.jpg');
+    background-image: url('/media/polaroid_texture.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;

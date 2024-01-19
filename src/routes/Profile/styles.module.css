@@ -85,7 +85,7 @@
 
 .linksMenu{
     width: 80%;
-    background: url('../../media/orangeTerrain.jpg');
+    background: url('/media/orangeTerrain.jpg');
     box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.30);
     filter: brightness(0.95);
     display: flex;

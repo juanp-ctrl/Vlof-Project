@@ -37,7 +37,7 @@ export default component$(() => {
         </div>
       </div>
       <div class="container_vlofAirlines">
-        <img width="767" height="653" src="src/media/plane_vlf.png" alt="Vlof Airlines Illustration" loading="lazy" />
+        <img width="767" height="653" src="/media/plane_vlf.png" alt="Vlof Airlines Illustration" loading="lazy" />
       </div>
     </>
   );

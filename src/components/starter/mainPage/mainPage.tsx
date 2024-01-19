@@ -9,7 +9,7 @@ export default component$(() => {
             <div class={styles.wrapper}>
                 <div class={styles.first_image}>
                     <Image 
-                        src="src/media/image_layer_1.png"
+                        src="/media/image_layer_1.png"
                         fetchpriority="high"
                         loading="eager"
                         layout="fixed"
@@ -17,7 +17,7 @@ export default component$(() => {
                     />
                 </div>
                 <div class={styles.second_image}>
-                    <img width={973} height={323} src="src/media/Pink_marble.jpg" alt="Beutiful green river" />
+                    <img width={973} height={323} src="/media/Pink_marble.jpg" alt="Beutiful green river" />
                     {/* <Image 
                         src="src/media/Pink_marble.jpg"
                         fetchpriority="high"
@@ -28,7 +28,7 @@ export default component$(() => {
                 </div>
                 <div class={styles.large_logo_desktop}>
                     <Image 
-                        src="src/media/Logo_large.png"
+                        src="/media/Logo_large.png"
                         fetchpriority="high"
                         loading="eager"
                         layout="fixed"
@@ -37,7 +37,7 @@ export default component$(() => {
                 </div>
                 <div class={styles.large_logo_phone}>
                     <Image 
-                        src="src/media/Logo_vertical.png"
+                        src="/media/Logo_vertical.png"
                         fetchpriority="low"
                         loading="lazy"
                         layout="fixed"

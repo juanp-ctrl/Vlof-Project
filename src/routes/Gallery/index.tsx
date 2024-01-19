@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 import { getGalleryData } from './db_service';
 
-export const useImageGallery = routeLoader$(async (requestEvent) => {
+export const useImageGallery = routeLoader$(async () => {
   const galleryArray = await getGalleryData();
   return galleryArray;
 })
@@ -35,13 +35,13 @@ export default component$(() => {
     return (
         <div>
           <div class={gallerySwitch.value ? styles.titleChange : styles.galleryTitle}>
-            <img width="675" height="334" src='../src/media/Gallery_title.png' alt='Gallery title'/>
+            <img width="675" height="334" src='/media/Gallery_title.png' alt='Gallery title'/>
           </div>
           <div class={[styles.gallery_container, gallerySwitch.value ? styles.galleryChange : '']}>
             {myImages.value.map((item, index) => (
               <div key={item.id} id={isActiveArray.value[index] ? "imageSelected" : item.id} class={[styles.image_card, isActiveArray.value[index] ? styles.imageSelected : '']} onClick$={() => {
                 if(isActiveArray.value[index] == false){
-                  let theImage = document.getElementById((index+1).toString())
+                  const theImage = document.getElementById((index+1).toString())
 
                   if(theImage){
                     distanceToTop.value = theImage.offsetTop;

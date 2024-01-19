@@ -1,23 +1,22 @@
 import { Signal, component$, useSignal } from '@builder.io/qwik';
 import { type DocumentHead } from "@builder.io/qwik-city";
-import { UseSignal, useVisibleTask$ } from '@builder.io/qwik';
+import { useVisibleTask$ } from '@builder.io/qwik';
 
 import styles from "./styles.module.css";
 
 export default component$(() => {
 
     const isWriting = useSignal(false);
-    const cvPopup = useSignal(false);
 
     return (
         <div>
             <div class={styles.profileTitle}>
-                <img width="693" height="216" src="../src/media/Profile_title.png" alt="Profile title" />
+                <img width="693" height="216" src="/media/Profile_title.png" alt="Profile title" />
             </div>
             <div class={styles.greenRectangle}></div>
             <div class={styles.transparentRectangle}>
                 <div class={styles.photoWrapper}>
-                    <img width={300} height={367} src="../src/media/Profile_photo.jpg" alt="Profile photo" />
+                    <img width={300} height={367} src="/media/Profile_photo.jpg" alt="Profile photo" />
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="5" height="190" viewBox="0 0 5 190" fill="none">
                     <path d="M1 0V150" stroke="white" stroke-width="3"/>
@@ -60,7 +59,7 @@ const WriteEffect = component$<{ ended: Signal<boolean>, baseText: string }>( ({
     useVisibleTask$( () => {
 
         function writeFunc(){
-            let text = textArray[indArray.value]
+            const text = textArray[indArray.value]
             if(ended.value == false){
                 currentText.value += text[currentIndex.value++];
                 if(currentIndex.value == text.length+1){
@@ -87,7 +86,7 @@ const WriteEffect = component$<{ ended: Signal<boolean>, baseText: string }>( ({
         }
 
         function loop() {
-            const timeout = setTimeout(() => {
+            setTimeout(() => {
                 writeFunc();
                 loop();
             }, timeDelay.value)

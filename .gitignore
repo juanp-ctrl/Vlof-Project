@@ -4,6 +4,7 @@
 /lib-types
 /server
 db_service.ts
+deploy.sh
 
 # Development
 node_modules

@@ -29,7 +29,7 @@ body {
   margin: 0;
   line-height: inherit;
   background: rgb(119 153 118);
-  background-image: url('media/noise-light.png');
+  background-image: url('/media/noise-light.png');
   font-family: 'Jost-Regular';
 }
 
