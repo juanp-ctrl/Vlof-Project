@@ -12,7 +12,7 @@
     flex-shrink: 0;
     border-radius: 0px 0px 25px 25px;
     background: rgba(214, 93, 75);
-    background-image: url("../../../media/noise-light.png");
+    background-image: url("/media/noise-light.png");
     box-shadow: 0px 12px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
 }

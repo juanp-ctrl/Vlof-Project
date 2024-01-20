@@ -9,13 +9,13 @@ export default component$(() => {
             <div class={styles.left_space}>
                 <h2>VLOF.</h2>
             </div>
-            <div class={styles.right_space}>
-                <UpsideArrow onClick$={() => {
+            <div class={styles.right_space} onClick$={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth'
                     });
-                }}/>
+                }}>
+                <UpsideArrow/>
             </div>
         </div>
     );
