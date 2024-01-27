@@ -396,7 +396,7 @@
 
     .container_vlofAirlines{
         margin-top: -25px;
-        margin-bottom: 110px;
+        margin-bottom: 90px;
     }
 
     .container_vlofAirlines img{
@@ -432,6 +432,10 @@
     .explanation_text{
         height: 470px;
     }
+
+    .container_vlofAirlines{
+        margin-top: -30px;
+    }
 }
 
 @media only screen and (max-width: 396px){
@@ -449,11 +453,15 @@
     .explanation_text{
         height: 525px;
     }
+
+    .container_vlofAirlines{
+        margin-top: -22px;
+    }
 }
 
 @media only screen and (max-width: 370px){
     .container_vlofAirlines{
-        margin-top: -25px;
+        margin-top: -20px;
     }
 
     .container_vlofAirlines img{

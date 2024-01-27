@@ -176,7 +176,7 @@
     }
 
     .profileTitle img{
-        width: 50%;
+        width: 55%;
     }
 
     .greenRectangle{
@@ -199,12 +199,6 @@
     }
 }
 
-@media screen and (max-width: 690px) {
-    .profileTitle img{
-        width: 55%;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .profileTitle{
         margin-top: 150px;
@@ -224,7 +218,7 @@
     }
 
     .profileTitle img{
-        width: 70%;
+        width: 77%;
     }
 
     .greenRectangle{
