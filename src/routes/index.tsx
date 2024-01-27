@@ -25,14 +25,12 @@ export default component$(() => {
       <div class="container_leftRectangle">
         <h2>¿De que va este sitio?</h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="left_Q_rectangle" width="906" height="118" viewBox="0 0 906 118" fill="none">
-          <g filter="url(#filter0_d_7_33)">
             <path d="M0 0H877C890.807 0 902 11.1929 902 25V85C902 98.8071 890.807 110 877 110H0V0Z" fill="#E7F3C5"/>
-          </g>
         </svg>
       </div>
       <div class="container_explanation">
         <div class="explanation_text">
-          <p>Vlof nace de la pregunta de que es lo que se necesita para iniciar aquello que deseamos, como saber impulsarnos y dejarnos llevar, asi como en la aviación existe el VLOF, la velocidad de despegue, que viene siendo la velocidad a la que un avión comienza a volar podemos asi mismo preguntarnos, ¿Cual es nuestro vlof? <br />  <br />
+          <p>Vlof nace de la pregunta, ¿Qué es lo que se necesita para iniciar aquello que deseamos? ¿Cómo saber impulsarnos y dejarnos llevar?, así como en la aviación existe el VLOF, la velocidad de despegue, que viene siendo la velocidad a la que un avión comienza a volar podemos así mismo preguntarnos, ¿Cuál es nuestro vlof? <br />  <br />
               Es por esto que este sitio es una expresión creativa propia, mi nombre es Juan Pablo Jiménez, estas son mis <a href="/Gallery">fotos</a>, mis ideas y este es mi sitio. </p>
         </div>
       </div>
