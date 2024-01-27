@@ -191,20 +191,18 @@
 }
   
   .menu_bg{
-    top: 0;
-    right: 0; /* Alinea a la derecha */
+    top: -410px;
+    right: -410px; /* Alinea a la derecha */
     position: absolute;
-  }
-  
-  .menu_bg {
     z-index: 103;
-    width: 0;
-    height: 0;
     margin: 37px 40px 0 auto; /* Alinea a la derecha con 'auto' */
     background-image: url("../../../media/noise-light.png");
     background-color: #E08476;
     border-radius: 50%;
-    transition: 0.7s ease;
+    transition: transform 0.7s ease;
+    -webkit-transition: transform 700ms ease;
+    -moz-transition: transform 700ms ease;
+    -o-transition: transform 700ms ease;
   }
 
   .change_x {
@@ -240,11 +238,11 @@
   .change_bg {
     width: 425px;
     height: 460px;
-    transform: translate(59%, -26%); /* Ajusta la transformación para la animación desde la derecha */
-    -ms-transform: translate(59%, -26%);
-    -webkit-transform: translate(59%, -26%);
-    -moz-transform: translate(59%, -26%);
-    -o-transform: translate(59%, -26%);
+    transform: translate(-37%, 63%); /* Ajusta la transformación para la animación desde la derecha */
+    -ms-transform: translate(-37%, 63%);
+    -webkit-transform: translate(-37%, 63%);
+    -moz-transform: translate(-37%, 63%);
+    -o-transform: translate(-37%, 63%);
     box-shadow: -10px 12px 4px -2px rgba(0, 0, 0, 0.17);
   }
 
