@@ -143,10 +143,18 @@
   
   .bar1 {
     transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
   }
   
   .bar3 {
     transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -o-transform: translateY(4px);
   }
   
   .nav {
@@ -233,6 +241,10 @@
     width: 425px;
     height: 460px;
     transform: translate(59%, -26%); /* Ajusta la transformación para la animación desde la derecha */
+    -ms-transform: translate(59%, -26%);
+    -webkit-transform: translate(59%, -26%);
+    -moz-transform: translate(59%, -26%);
+    -o-transform: translate(59%, -26%);
     box-shadow: -10px 12px 4px -2px rgba(0, 0, 0, 0.17);
   }
 
