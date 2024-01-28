@@ -64,7 +64,7 @@ export default component$(() => {
                 moveTheScroll();
               }}>
                 <div class={styles.imageContainer}>
-                  <img width="4608" height="2592" src={item.imageSource} alt={item.description} />
+                  <img width="461" height="259" src={item.imageSource} alt={item.description} />
                   <p>{item.description}</p>
                 </div>
               </div>
