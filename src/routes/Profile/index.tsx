@@ -29,7 +29,7 @@ export default component$(() => {
             <div class={styles.linksWrapper}>
                 <div class={styles.linksMenu}>
                     <div class={styles.cvLink}>
-                        <a href="../../../data/CV_Juan Pablo Jiménez_Spanish.pdf" download>Descargar CV</a>
+                        <a href="/data/CV_Juan Pablo Jiménez_Spanish.pdf" download>Descargar CV</a>
                     </div>
                     <div class={styles.githubLink}>
                         <a href="https://github.com/juanp-ctrl" target='_blank'>GitHub</a>
