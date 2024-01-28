@@ -110,7 +110,7 @@
 
     .gallery_container{
         grid-template-columns: 1fr; /* Cambia a una sola columna (una fracción) en dispositivos con ancho de pantalla de 600px o menos */
-        padding: 20px 0px;
+        padding: 20px 0px 20px 0px;
     }
 }
 
