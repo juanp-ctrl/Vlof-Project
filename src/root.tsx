@@ -10,6 +10,11 @@ import { QwikPartytown } from "./components/partytown/partytown";
 import "./global.css";
 
 export default component$(() => {
+  const googleScript = `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8LES50DXTC'); `;
+
   /**
    * The root of a QwikCity site always start with the <QwikCityProvider> component,
    * immediately followed by the document's <head> and <body>.
@@ -27,6 +32,7 @@ export default component$(() => {
           type="text/partytown"
           src="https://www.googletagmanager.com/gtag/js?id=G-8LES50DXTC"
         />
+        <script type="text/partytown">{googleScript}</script>
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
