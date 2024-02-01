@@ -16,14 +16,6 @@ export default component$(() => {
    *
    * Don't remove the `<head>` and `<body>` elements.
    */
-  const script = document.createElement('script');
-  script.type = 'text/partytown';
-  script.innerHTML = `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8LES50DXTC');`;
-  document.head.appendChild(script)
 
   return (
     <QwikCityProvider>
