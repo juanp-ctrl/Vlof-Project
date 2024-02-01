@@ -5,6 +5,7 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
+import { QwikPartytown } from "./components/partytown/partytown";
 
 import "./global.css";
 
@@ -15,11 +16,25 @@ export default component$(() => {
    *
    * Don't remove the `<head>` and `<body>` elements.
    */
+  const script = document.createElement('script');
+  script.type = 'text/partytown';
+  script.innerHTML = `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8LES50DXTC');`;
+  document.head.appendChild(script)
 
   return (
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
+        <QwikPartytown forward={['dataLayer.push']}/>
+        <script
+          async
+          type="text/partytown"
+          src="https://www.googletagmanager.com/gtag/js?id=G-8LES50DXTC"
+        />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
