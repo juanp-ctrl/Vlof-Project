@@ -7,7 +7,7 @@ import { getGalleryData } from './db_service';
 
 export const useImageGallery = routeLoader$(async () => {
   const galleryArray = await getGalleryData();
-  return galleryArray;
+  return galleryArray.reverse();
 })
 
 export async function scrollNow(distance:number) {

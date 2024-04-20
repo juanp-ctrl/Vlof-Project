@@ -102,7 +102,8 @@ export const head: DocumentHead = {
     meta: [
         {
         name: "description",
-        content: "Vlof - Profile of the author",
+        content: "Juan Pablo Jiménez, ",
         },
     ],
 };
+
